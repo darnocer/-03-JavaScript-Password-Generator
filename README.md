@@ -2,7 +2,7 @@
 
 ## Deployed Site:
 
-https://darnocer.github.io/03-JavaScript-Password-Generator/
+https://darnocer.github.io/JavaScript-Password-Generator/
 
 ## Description
 
