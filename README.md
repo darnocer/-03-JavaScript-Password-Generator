@@ -1,12 +1,22 @@
-# 03-JavaScript-Password-Generator
+# Password Generator
 
-## Deployed Site:
+![last commit](https://img.shields.io/github/last-commit/darnocer/JavaScript-Password-Generator?style=flat-square) ![license badge](https://img.shields.io/github/license/darnocer/JavaScript-Password-Generator?style=flat-square)
 
-https://darnocer.github.io/JavaScript-Password-Generator/
+### URL: https://darnocer.github.io/JavaScript-Password-Generator/
 
 ## Description
 
-While not the most secure password generator, this was an assignement that challenged us to generate a password based on user input (Acceptance Criteria below).
+This is a simple javascript application to generate a password based on user-inputted criteria.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#Credits)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Usage
 
 After clicking the "Generate Password" button, you are asked a series of the following prompts:
 
@@ -16,10 +26,11 @@ After clicking the "Generate Password" button, you are asked a series of the fol
 - Would you like it to contain numbers?
 - Would you like it to contain special characters?
 
-A password meeting the specified criteria is then returned.
-![password](./Assets/images/password.png)
+* _Note: not the most secure password generator :)_
 
-## Test Cases
+![demo](./Assets/images/demo.gif)
+
+## Tests
 
 This password generator passes the following test cases:
 
@@ -29,22 +40,14 @@ This password generator passes the following test cases:
 - No character types selected -> prompts to select at least one charcter type and returns to the first character type prompt
 - Generating a password again in the same session -> replaces old password with new password
 
-## Acceptance Criteria
+## Questions?
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+Contact me at [darian.nocera26@gmail.com](mailto:darian.nocera26@gmail.com)
+
+or [![Follow on Github](https://img.shields.io/github/followers/darnocer?label=Follow&style=social)](http://www.github.com/darnocer)
+
+Copyright © 2020 [Darian Nocera](http://www.github.com/darnocer)
+
+---
+
+##### _Created with [darnocer's README generator](https://github.com/darnocer/Node.js-and-ES6-README-Generator)_ 👽
