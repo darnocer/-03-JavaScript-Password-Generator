@@ -12,6 +12,7 @@ This is a simple javascript application to generate a password based on user-inp
 
 - [Usage](#usage)
 - [Tests](#tests)
+- [Future Enhancements](#future-enhancements)
 - [Questions](#questions)
 
 ## Usage
